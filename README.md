@@ -1,15 +1,17 @@
 # [Package] CodeIgniter + Bootstrap #
 
 
-Version: 1.0.0
+Version: 1.0.0, **CodeIgniter\_2.1.3** + **Bootstrap\_2.3.1**
 
 Date: 2013-04-13
 
-Comment: **CodeIgniter\_2.1.3** + **Bootstrap\_2.3.1**
+Comment: First upload.
 
 ----------
 
 # Description #
+
+This is a quick package for CodeIgniter and Bootstrap combination.
 
 ## Quick Setup Template ##
 
