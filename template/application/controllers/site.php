@@ -11,6 +11,3 @@ class Site extends MY_Controller {
 		$this->load->view('page2');
 	}
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */

@@ -1,10 +1,10 @@
 # Use suPHP_ConfigPath to set path to .htacees on virtual host
 # Needless on localhost 
 RewriteEngine on
-RewriteCond $1 !^(index\.php|img|css|js|robots\.txt|favicon\.ico|$)
+RewriteCond $1 !^(index\.php|img|css|js|robots\.txt|$)
 RewriteRule ^(.*)$ index.php/$1 [L]
 
-# Write your own rewrite rules
+# Write your own rewrite rules for seperate pages
 # MAKE SURE have corresponding settings in application/config/routes.php
 RedirectMatch 301 ^/page1.php$ /page1
 RedirectMatch 301 ^/page2.php$ /page2

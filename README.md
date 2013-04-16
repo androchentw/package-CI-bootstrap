@@ -1,11 +1,10 @@
 # [Package] CodeIgniter + Bootstrap #
 
+Version: 1.1.0, **CodeIgniter\_2.1.3** + **Bootstrap\_2.3.1**
 
-Version: 1.0.0, **CodeIgniter\_2.1.3** + **Bootstrap\_2.3.1**
+Date: 2013-04-16
 
-Date: 2013-04-13
-
-Comment: First upload.
+Comment: Re-layout.
 
 ----------
 
@@ -58,7 +57,7 @@ If you feel uncomfortable to the settings made by me, or simply want to see what
 		RewriteCond $1 !^(index\.php|img|css|js|robots\.txt|favicon\.ico|$)
 		RewriteRule ^(.*)$ index.php/$1 [L]     
 		
-		# Write your own rewrite rules
+		# Write your own rewrite rules for seperate pages
 		# MAKE SURE have corresponding settings in application/config/routes.php
 		RedirectMatch 301 ^/page1.php$ /page1
 		RedirectMatch 301 ^/page2.php$ /page2
@@ -79,7 +78,7 @@ If you feel uncomfortable to the settings made by me, or simply want to see what
 		$config['index_page'] = '';
 	
 4. **Reference**: 
-	[Routing](http://www.codeigniter.org.tw/user_guide/general/routing.html)
+	[Routing](http://www.codeigniter.org.tw/user_guide/general/routing.html),
 	[URLs](http://www.codeigniter.org.tw/user_guide/general/urls.html)
 
 Complete and colored description also lies in /CI-Init-Setup.pdf
