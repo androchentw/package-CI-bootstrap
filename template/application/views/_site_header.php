@@ -9,7 +9,7 @@
 	if(isset($pageTitle)) {
 		echo $pageTitle;
 	} else {
-		echo "Welcome to Package-CI-Bootstrap";
+		echo "Andro Chen's Github projects";
 	}
 	?>
 </title>

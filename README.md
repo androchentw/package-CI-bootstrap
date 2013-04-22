@@ -1,10 +1,10 @@
 # [Package] CodeIgniter + Bootstrap #
 
-Version: 1.1.0, **CodeIgniter\_2.1.3** + **Bootstrap\_2.3.1**
+Version: 1.1.1, **CodeIgniter\_2.1.3** + **Bootstrap\_2.3.1**
 
-Date: 2013-04-16
+Date: 2013-04-21
 
-Comment: Re-layout.
+Comment: Layout finetune.
 
 ----------
 

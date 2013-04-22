@@ -1,5 +1,5 @@
 <?php 
-  $package_name = "Package-CI-Bootstrap";
+  $template_name = "Package-CI-Bootstrap";
 ?>
 <!DOCTYPE html>
 <html lang="zh-tw">
@@ -19,12 +19,15 @@
           <div class="span10">
             <!-- body-content -->
             <div id="body">
-              <h1>Welcome to <?=$package_name?> - Page2</h1>
+              <h1>Welcome to <?=$template_name?> - Page2</h1>
+              
               <h2>Congratulations!</h2>
               <p>You've successfully used this package! Enjoy web programming!</p>
 
+              <h2>Functional Guide</h2>
               <p>Go to <a href="<?=site_url("")?>">index</a>, <a href="<?=site_url("page1")?>">page1</a> or <a href="<?=site_url("page2")?>">page2</a> to check those views!</p>
-              <p>Check <a href="https://github.com/andro0929/<?=$package_name?>">Github</a> for further information.</p>
+              <p>Check <a href="https://github.com/andro0929/<?=$template_name?>">Github</a> for further information.</p>
+
               <p>Author: <a href='http://androchen.qov.tw' target="blank">Andro Chen</a></p>
             </div>
             <!-- body-content ends -->
@@ -36,7 +39,7 @@
   </div>
   <div id="footer">
     <?php include("_site_footer.php");?>
-    <a href="https://github.com/andro0929/<?=$package_name?>"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/andro0929/<?=$template_name?>"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
   </div>  
 </body>
 </html>
