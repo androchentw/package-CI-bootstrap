@@ -25,6 +25,7 @@
               <p>You've successfully used this template! Enjoy web programming!</p>
 
               <h2>Functional Guide</h2>
+              <p>This is a quick package for <strong>CodeIgniter and Bootstrap </strong> combination. 這是一個結合了 CodeIgniter 與 Bootstrap 的網頁版型，下載完直接可以啟用</p>
               <p>Go to <a href="<?=site_url("")?>">index</a>, <a href="<?=site_url("page1")?>">page1</a> or <a href="<?=site_url("page2")?>">page2</a> to check those views!</p>
               <p>Check <a href="https://github.com/andro0929/<?=$template_name?>">Github</a> for further information.</p>
 
