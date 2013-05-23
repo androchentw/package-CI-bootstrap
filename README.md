@@ -1,10 +1,12 @@
 # [Package] CodeIgniter + Bootstrap #
 
-Version: 1.1.1, **CodeIgniter\_2.1.3** + **Bootstrap\_2.3.1**
+Demo page: [Package-CI-Bootstrap | Andro Demo](http://androdemo.qov.tw/package-ci-bootstrap/)
 
-Date: 2013-04-21
+Version: 1.1.0, **CodeIgniter\_2.1.3** + **Bootstrap\_2.3.1**
 
-Comment: Layout finetune.
+Date: 2013-05-23
+
+Comment: Add demo page.
 
 ----------
 
